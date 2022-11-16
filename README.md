@@ -9,7 +9,7 @@ Stromaufnahme: *to be defined*
 Schaltschwelle (Transistor):   *to be defined* (theoretisch 1,4 V)  
 Schaltschwelle (Optokoppler):  *to be defined*  
 
-![3D-Vorschau](https://github.com/boert/Melodieklingel/blob/master/Melodieklingel__Vorschau.png)
+![3D-Vorschau](Melodieklingel__Vorschau.png)
 
 
 ### erwartete Stromaufnahme (Bestückung mit klassisch TTL)
