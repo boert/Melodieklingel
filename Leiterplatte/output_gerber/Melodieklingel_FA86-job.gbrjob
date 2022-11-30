@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.9)"
     },
-    "CreationDate": "2022-11-15T22:09:50+01:00"
+    "CreationDate": "2022-11-29T21:23:21+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Melodieklingel_FA86",
       "GUID": "4d656c6f-6469-4656-9b6c-696e67656c5f",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
       "X": 100.1,
