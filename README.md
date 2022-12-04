@@ -5,45 +5,24 @@ Leiterplatte für die Melodieklingel nach der Veröffentlichung von S. Lehmann i
 ## Eckdaten
 Leiterplattengröße: 100 x 100 mm  
 Betriebsspannung: 5V DC  
-Stromaufnahme: 183 bis 230 mA (TTL)  
+Stromaufnahme: 87 bis 230 mA (min./max.)  
 Schaltschwelle (Transistor):   1,4 V  
 Schaltschwelle (Optokoppler):  8 V (DC) oder 5,6 V (AC)    
 
 ![3D-Vorschau](Melodieklingel__Vorschau.png)
 
 
-### Stromaufnahme (Bestückung mit TTL-Schaltkreisen)
+### Stromaufnahme
 
-Abschätzung:  
+Alle Meesungen erfolgten mit einem 8 Ohm-Kleinlautsprecher.
 
-| Ref. | Schaltkreis | Stromaufnahme |
-| ---- | ----------- | -------------:|
-| D1   | D104        |  30 mA        |
-| D2   | U880D       | 200 mA        |
-| D3   | U2716       |  25 mA        |
-| D4   | D174        |  30 mA        |
-|      | **Summe**   | 285 mA        |
+| Logikfamilie | IC D1   | IC D2     | IC D3 | IC D4   | Ruhezustand                  || Wiedergabe                   ||
+| ------------ | ------- | --------- | ----- | ------  | -------------:| -------------:| -------------:| -------------:|
+| TTL          | D104    | U880D     | U2716 | D174    |      183 mA   |     0,92 W    | 230 mA        |   1,15 W      |
+| CMOS         | 74HCT04 | STZ8400   | U2716 | 74LS74  |      128 mA   |     0,64 W    | 175 mA        |   0,88 W      |
+| CMOS         | 74HCT04 | TMPZ84C00 | U2716 | 74LS74  |       87 mA   |     0,44 W    | 135 mA        |   0,68 W      | 
 
-Messung:  
-
-Betriebsmodus | Stromaufnahme | Leistung |
-------------- | -------------:| --------:|
-Ruhezustand   |        183 mA | 0,92 W   |
-Wiedergabe    |        230 mA | 1,15 W   |
-
-
-
-### erwartete Stromaufnahme (Bestückung mit CMOS-Bausteinen)
-
-| Ref. | Schaltkreis | erwartete Stromaufnahme |
-| ---- | ----------- | ----------------------- |
-| D1   | 74HCT04     |   0,002 mA              |
-| D2   | TMPZ84C00   |  15     mA              |
-| D3   | 27C16       |   1     mA              |
-| D4   | 74HCT74     |   0,04  mA              |
-|      | **Summe**   |  16     mA              |
-
-Leistungsaufnahme: ca. 80 mW
+Hinweis: Da bei D4 nicht alle Eingänge beschaltet wurden, kann es beim Einsatz von 74HCT74 zu Fehlfunktionen kommen. Bei Verwendung von DL074/74LS74 sollte es keine Probleme geben.
 
 
 ## Änderungen gegenüber dem Original
