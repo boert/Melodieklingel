@@ -14,13 +14,13 @@ Schaltschwelle (Optokoppler):  8 V (DC) oder 5,6 V (AC)
 
 ### Stromaufnahme
 
-Alle Meesungen erfolgten mit einem 8 Ohm-Kleinlautsprecher.
+Alle Messungen erfolgten mit einem 8 Ohm-Kleinlautsprecher.
 
-| Logikfamilie | IC D1   | IC D2     | IC D3 | IC D4   | Ruhezustand                  || Wiedergabe                   ||
-| ------------ | ------- | --------- | ----- | ------  | -------------:| -------------:| -------------:| -------------:|
-| TTL          | D104    | U880D     | U2716 | D174    |      183 mA   |     0,92 W    | 230 mA        |   1,15 W      |
-| CMOS         | 74HCT04 | STZ8400   | U2716 | 74LS74  |      128 mA   |     0,64 W    | 175 mA        |   0,88 W      |
-| CMOS         | 74HCT04 | TMPZ84C00 | U2716 | 74LS74  |       87 mA   |     0,44 W    | 135 mA        |   0,68 W      | 
+| Logikfamilie | IC D1   | IC D2     | IC D3 | IC D4   | Ruhezustand      | Wiedergabe       |
+| ------------ | ------- | --------- | ----- | ------  | ----------------:| ----------------:|
+| TTL          | D104    | U880D     | U2716 | D174    | 183 mA  (0,92 W) | 230 mA  (1,15 W) |
+| CMOS         | 74HCT04 | STZ8400   | U2716 | 74LS74  | 128 mA  (0,64 W) | 175 mA  (0,88 W) |
+| CMOS         | 74HCT04 | TMPZ84C00 | U2716 | 74LS74  |  87 mA  (0,44 W) | 135 mA  (0,68 W) | 
 
 Hinweis: Da bei D4 nicht alle Eingänge beschaltet wurden, kann es beim Einsatz von 74HCT74 zu Fehlfunktionen kommen. Bei Verwendung von DL074/74LS74 sollte es keine Probleme geben.
 
