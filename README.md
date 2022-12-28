@@ -62,6 +62,9 @@ https://hc-ddr.hucki.net/wiki/doku.php/elektronik/melodieklingel
 
 
 # Änderungen / History
+## Version 3, 28.12.2022
+- VT2, Footprint korrigiert (180° gedreht)
+
 ## Version 2, 29.11.2022
 - C1 von 470 nF zu 470 pF geändert   
 - D100, Pin 5 und Pin 6 getauscht   
