@@ -11,6 +11,22 @@ Schaltschwelle (Optokoppler):  8 V (DC) oder 5,6 V (AC)
 
 ![3D-Vorschau](Melodieklingel__Vorschau.png)
 
+### Anschlüsse
+
+| Name      | Bedeutung                 | Bemerkung                                         |
+| -----     | ---------                 | ---------                                         |
+| TP 0      | GND/ Masse                |                                                   |
+| TP 1      | Eingang Transistorstufe   | nicht potentialfrei, max. 24V Eingangsspannung    |
+| TP 2      | Ausgang Transistorstufe   | muß ggf. mit TP3 verbunden werden                 |
+| TP 3      | Taster                    | nicht potentialfrei, max. 5V Eingangsspannung     |
+| TP 4      | Lautsprecher              |                                                   |
+| TP 5      | +5V                       |                                                   |
+| TP 100    | Eingang Optokoppler (+)   | potentialfrei, max. 24V Eingangsspannung          |
+| TP 101    | Eingang Optokoppler (-)   | potentialfrei, max. 24V Eingangsspannung          |
+| TP 102    | Ausgang Optokoppler       | muß ggf. mit TP3 verbunden werden                 |
+
+Der zweite Anschluss des Lautsprechers muß mit +5V (TP5) verbunden werden.
+
 
 ### Stromaufnahme
 
